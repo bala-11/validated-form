@@ -1,0 +1,208 @@
+/* Container */
+
+body{
+    background-color: #a8b1ec;
+}
+
+
+.container{
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: rgb(255, 252, 249);
+    width: 70%;
+    height:250vh;
+}
+
+/* heading*/
+
+.heading{
+    padding-top: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+/* star */
+#star{
+    color: red;
+}
+
+/* Full name */
+.fullname{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+input[type="text"]{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.name{
+    margin-left: 10%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lname{
+    margin-left: 10%;
+}
+
+/* email and phn number */
+
+#phn{
+    margin-right: 30%;
+}
+/* Gender */
+
+#gender{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.gender{
+    font-weight: bold;
+}
+
+input[type='radio']{
+    transform: scale(1.2);
+}
+
+/* city */
+
+.city{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+#city{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dropdown{
+    width: 38%;
+    font-size: 23px;
+}
+
+/* position and date */
+input[type='date']{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.date{
+    margin-left: 10%;
+    width:38%;
+}
+
+/* Prefered Interview date */
+.dateindex{
+    display: flex;
+}
+
+.specifictimetext{
+    margin-left: 10%;
+}
+
+.timings{
+    display: flex;
+    
+    margin-left: 50%;
+
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 54%;
+}
+
+.box1,.box2{
+    padding:5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 5%;
+    width:100px;
+    height:35px;
+}
+.box1,.box2 p{
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+
+.arrow{
+    margin-left: 10%;
+}
+
+.time{
+    padding: 7px;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(60, 5, 238);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#specifictime{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pid{
+    margin-left: 10%;
+    width:35%
+}
+#pidtext{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Upload files */
+
+.para{
+    text-align: center;
+    width:80%;
+    height:100%;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10%;
+    border:1px dashed black;
+    background-color: #fff;
+}
+/* footer */
+.footer{
+    margin-left: 45%;
+}
+.button{
+    padding: 10px;
+    margin-top: 30px;
+    color:#fff;
+    background-color: black;
+    font-size: 20px;
+} 
+
+
+input[type="radio"]{
+ display: none;
+}
+
+.tables{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px 50px 50px;
+    margin-left:55%;
+    gap:10px;
+}
+
+.table1{
+    padding: 12px;
+    background-color: rgb(162, 228, 228);
+    border: 1px solid rgb(56, 14, 245);
+    border-radius: 5px;
+    color:#080000;
+    text-align: center;
+}

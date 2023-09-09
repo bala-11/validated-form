@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="./form design/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="./form design/js/main.js"></script>
+</head>
+<body>
+
+
+        <div class="container">
+            <!-- heading -->
+    
+            <div class="heading">
+                <h2>Job application form</h2>
+                <h5>Please fill out the form below to submit the application</h5>
+            </div>
+            <hr>
+    
+            <!-- Name -->
+            <div class="fullname">
+                <span>Name</span><span id="star">*</span>
+            </div>
+            <div class="name">
+                <div class="fname">
+                    <input type="text" id="firstname" style="font-size:25px;width: 100%;"><br>
+                    <p>First Name</p>
+                </div>
+                <div class="lname">
+                    <input type="text" id="lastname"  style="font-size:25px;width: 100%;"><br>
+                    <p>Last Name</p>
+                </div>
+            </div>
+    
+            <!-- Email and Phone number -->
+    
+            <div class="fullname">
+                <span>E-mail</span><span id="star">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>Phone Number</span><span id="star">*</span>
+            </div>
+            <div class="name">
+                <div class="fname">
+                    <input type="text" id="email" style="font-size:25px;width: 100%;" placeholder="ex:myname@example.com"><br>
+                    <p>example@example.com</p>
+                </div>
+                <div class="lname">
+                    <input type="text" id="phonenumber" style="font-size:25px;width: 100%;" placeholder="000-000-000"><br>
+                    <!-- <p>Last Name</p> -->
+                </div>
+            </div>
+    
+    
+            <!-- gender details -->
+            <br>
+            <div id="gender">
+                <h3>Gender</h3>
+                    <input type="radio" name="Gender"  class="gender" value="Male">
+                    <label for="Male">Male</label><br>
+        
+                    <input type="radio" name="Gender"  class="gender" value="Female">
+                    <label for="Female">Female</label><br>
+        
+                    <input type="radio" name="Gender" class="gender" value="Transgender">
+                    <label for="Transgender">Transgender</label>
+            </div>
+    
+    
+            <!-- current city -->
+            <div class="city">
+                <p id="city">Current City</p>
+                <select name="dropdown" id="dropdown">
+                    <option value="">Please Select</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+            </div>
+    
+    
+        <!-- applied postion and date -->
+            <br>
+            <br>
+        <div class="fullname">
+        <span>Applied position</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>Earliest possible start date</span>
+        </div>
+        <div class="name">
+        <div class="fname">
+            <input type="text" id="applyPos" style="font-size:25px;width: 100%;" placeholder=""><br>
+            <!-- <p>example@example.com</p> -->
+        </div>
+        <div class="date">
+            <input type="date" id="earliestPossibleDate" style="font-size:25px;width: 100%;" placeholder="MM-DD-YYYY" onfocus="(this.type='date')"><br>
+            <p>Date</p>
+        </div>
+        </div>
+        <br>
+    <!-- Prefered Date index -->
+    
+        <div class="dateindex">
+    
+            <div class="pid">
+                <p id="pidtext">Prefered Interview Date</p>
+            <input type="date" id="preferInterviewDate" style="font-size:25px;width: 90%;" placeholder="MM-DD-YYYY"><br>
+            </div>
+    
+            <div class="specifictimetext">
+                <p id="specifictime">Monday, March 27 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                </span>&nbsp;&nbsp;
+                <span><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                </span>
+            </p>
+            </div>
+        </div>
+    
+            <div class="tables">
+                <div class="table1"><input type="radio" name="time" id="" value="11:30AM">11:30AM</div>
+                <div class="table1"><input type="radio" name="time" id="" value="12:30PM">12:30PM</div>
+                <div class="table1"><input type="radio" name="time" id="" value="1:30PM">1:30PM</div>
+                <div class="table1"><input type="radio" name="time" id="" value="4:30PM">4:30PM</div>
+                <div class="table1"><input type="radio" name="time" id="" value="5:30PM">5:30PM</div>
+                <div class="table1"><input type="radio" name="time" id="" value="6:30PM">6:30PM</div>
+            </div>
+        
+        
+    
+    <!-- Upload file -->
+    
+            <div class="uploadfile">
+                <div class="fullname">
+                    <span>Upload Resume</span><span id="star">*</span>
+                </div>
+                <div class="para">
+                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                    <h4>Upload a file</h4>
+                    <p>Drag and drop files here</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+    
+            <!-- footer -->
+            <div class="footer">
+                <button class="button" onclick="validate()">Apply</button>
+            </div>
+</div>
+</body>
+</html>
